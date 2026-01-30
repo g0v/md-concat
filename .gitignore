@@ -1,0 +1,23 @@
+# 環境變數與機密
+.dev.vars
+.env
+.env.local
+.env.*.local
+
+# 依賴
+node_modules/
+
+# 建置輸出
+dist/
+.wrangler/
+worker/
+*.md
+!README.md
+
+# 日誌與快取
+*.log
+.cache/
+
+# 作業系統
+.DS_Store
+Thumbs.db
