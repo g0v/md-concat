@@ -1,4 +1,4 @@
-# md_concact
+# md-concat
 
 Merge multiple `.md` files from a folder into one output file, ordered by **modification time**. Designed to work with output from [**Whispering**](https://epicenter.so/whispering/) — the open-source transcription app. Each source file is reduced to only `completedAt` (written as `timeStamp`) and `output` (written as `text`).
 
